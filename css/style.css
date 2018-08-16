@@ -37,7 +37,7 @@ color: #000000;
   position: fixed;
   margin-top: 70px;
   float:left;
-  width: 250px;
+  width: 240px;
   height:auto;
 }
 
@@ -81,18 +81,30 @@ color: #000000;
 }
 
 #bluedrop2{
-  width: 990px;
+  width: 700px;
   height: 720px;
   border-radius: 10px;
-  float: right;
   margin-top: 70px;
+  margin-left: 260px;
   background-color: #5e738c;
   border: solid 2px #000000;
   display: flex;
   flex-direction: column;
 }
+#partychat{
+  margin-top: 70px;
+  height: 700px;
+  margin-left: 1000px;
+  width: auto;
+  position: fixed;
+}
 #recently_played_icon{
-  width: 190px;
+  display: flex;
+
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 5px;
+  width: 170px;
   height: 33px;
   border-radius: 10px;
   background-color: #1f4e79;
@@ -135,6 +147,10 @@ color: #000000;
 
 #showcase{
   padding: 0px 10px 0 10px;
+  display: flex;
+
+  align-content: center;
+
 }
 
 #signupbutton{
@@ -209,9 +225,30 @@ h2{
 }
 
 .game_icon{
-  width: 80px;
-  height: 80px;
-  border-radius: 13px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  align-items: center;
+  height: 50px;
+  border-radius: 10px;
   background-color: #9b9b9b;
   border: solid 2px #000000;
+}
+
+.game{
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 900;
+  color: #000000;
+  align-items: center;
+}
+
+.game_image{
+  width:50px;
+  height:auto;
 }
